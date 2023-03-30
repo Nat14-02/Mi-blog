@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(#e24b10 30%, #e29810 60%);
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+#portada {
+    border-radius: 50%;
+}
+#Welcome {     
+    position: absolute;
+    
+        bottom: 0;
+        background: linear-gradient(#92078b 0%, #e24b10 100%);
+        display: table;
+        width: 100%;
+        height: 100%;
+       
+    }
+    
+ .inicio{
+
+    display: table-cell;
+    vertical-align: middle;
+}
+#titulo{
+    font-family: 'Cinzel', serif;
+    color: rgb(14, 1, 4);
+
+}
+.links {
+    display: inline;
+    color: #fff;
+    font-family:fantasy;
+    font-size: 20px;
+    padding-left:30px;
+    padding-right:30px ;
+    padding-top:30px;
+    padding-bottom:30px;
+    }
+.links:hover {
+    font-size:x-large;
+    text-decoration: underline;
+}
+.menu{
+  position: fixed;  
+  background: #291200;
+  width: 100%;
+  margin-top: 0%;
+  top: 0% ;
+  z-index: 100 ;
+}
+h2,h3,h4,h5{
+font-size:x-large
+}
+img{
+    width:500px;
+    height:400px ;
+}
+#portada {
+    border-radius: 50%;
+    width:50%;
+    height: 400px
+}
